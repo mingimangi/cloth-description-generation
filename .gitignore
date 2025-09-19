@@ -1,0 +1,12 @@
+RAG_files/embeddings.parquet
+data/data_cleaned_short.csv
+T5_files/model.safetensors
+T5_files/training_args.bin
+LoRA_files/adapter_model.safetensors
+
+# OS
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
