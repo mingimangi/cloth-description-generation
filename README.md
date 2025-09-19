@@ -293,6 +293,7 @@
 
 ## Струкура файлов: 
 
+```
 ├─ notebooks/
 │  ├─ 0_clean_dataset.ipynb          # очистка текста
 │  ├─ 1_rut5_finetune.ipynb          # seq2seq (ruT5)
@@ -305,6 +306,7 @@
 ├─ requirements.txt
 ├─ LICENSE
 └─ README.md
+```
 
 ---
 
