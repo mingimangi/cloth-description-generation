@@ -302,30 +302,21 @@
 ├─ data/
 │  └─ df_sample_pred.csv             # сэмпл из 200 примеров для сравнения генераций
 │
-├─ RAG_files/
-│  └─ final_idx.index                # FAISS-индекс (без embeddings.parquet, т.к. большой) 
-│
-├─ LoRA_files/                       # конфигурация LoRA (веса не приложены из-за размера) 
-│  └─ adapter_config.json
-│
-├─ T5_files/                         # токенайзер и конфиги ruT5 (без model.safetensors)
-│  ├─ config.json             
-│  ├─ generation_config.json                  
-│  ├─ special_tokens_map.json  
-│  ├─ spiece.model 
-│  ├─ tokenizer_config.json
-│  └─ tokenizer.json 
-│
 ├─ requirements.txt
 ├─ LICENSE
 └─ README.md
 
-### Примечания:
-- Тяжёлые файлы весов моделей (`pytorch_model.bin`, `model.safetensors` и т.д.), а также большие датасеты не загружены в репозиторий из-за большого размера.
-  
-### Ссылки на датасеты
+---
+
+## Датасеты и артефакты:
+
+Тяжёлые файлы весов моделей (`pytorch_model.bin`, `model.safetensors` и т.д.), а также большие датасеты не загружены в репозиторий из-за их размера.  
+
+Вместо этого доступны ссылки на Google Drive:
+
 - [Исходный датасет после предобработки (data_cleaned_short.csv)](https://drive.google.com/file/d/1O7VgSwjKeVjcar7116to1vgylWC3ugOb/view?usp=sharing)  
-- [База RAG: характеристики + описания + эмбеддинги (embeddings.parquet)](https://drive.google.com/file/d/1vxjBsV_kEd6fNU9g3F8l0TEcl0cLZnBr/view?usp=sharing)
+- [База RAG: характеристики + описания + эмбеддинги (embeddings.parquet)](https://drive.google.com/file/d/1vxjBsV_kEd6fNU9g3F8l0TEcl0cLZnBr/view?usp=sharing)  
+- [FAISS-индекс для RAG (final_idx.index)](https://drive.google.com/file/d/1tW0x7bL4PJmpqxppY4iI9e5X2nDUmti9/view?usp=sharing)
 
 ---
 

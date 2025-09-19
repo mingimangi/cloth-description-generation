@@ -1,8 +1,8 @@
-RAG_files/embeddings.parquet
+RAG_files
+LoRA_files
+T5_files
+
 data/data_cleaned_short.csv
-T5_files/model.safetensors
-T5_files/training_args.bin
-LoRA_files/adapter_model.safetensors
 
 # OS
 .DS_Store
